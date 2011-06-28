@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <title>Example</title>
+  <desc>P</desc>
+  <style type="text/css"><![CDATA[
+    .Border { fill:none; stroke:blue; stroke-width:1 }
+    .Connect { fill:none; stroke:#888888; stroke-width:2 }
+    .SamplePath { fill:none; stroke:red; stroke-width:5 }
+    .EndPoint { fill:none; stroke:#888888; stroke-width:2 }
+    .CtlPoint { fill:#888888; stroke:none }
+    .AutoCtlPoint { fill:none; stroke:blue; stroke-width:4 }
+    .Label { font-size:22; font-family:Verdana }
+  ]]></style>
+
+  <path class="SamplePath" d="	M100,200 
+									C130,150  480,150 
+								500,200" />
+  <circle class="EndPoint" cx="100" cy="200" r="10" />
+  <circle class="EndPoint" cx="500" cy="200" r="10" />
+  <circle class="CtlPoint" cx="130" cy="170" r="10" />
+  <circle class="CtlPoint" cx="480" cy="170" r="10" />
+</svg>
